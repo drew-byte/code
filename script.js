@@ -1,12 +1,12 @@
 function login() {
     const username = document.querySelector('[name="username"]')
     const password = document.querySelector('[name="password"]')
-    if(username.value.toLowerCase() == 'admin' && password.value.toLowerCase() == 'testpasswd') {
-        alert('Congratulations!')
+    if(username.value.toLowerCase() == 'administrator' && password.value.toLowerCase() == 'drewbyte') {
+        alert('PWNEU{!nform@t!0n-d!scl0sur3}')
     } else {
         username.value = ''
         password.value = ''
-        document.querySelector('#login-msg').innerHTML = 'Incorrect credentials. <i class="hint" onclick="viewSourceCode()">Try looking at the source code</i> or pressing CTRL+U at the same time.'
+        document.querySelector('#login-msg').innerHTML = 'Try Again'
     }
 }
 
